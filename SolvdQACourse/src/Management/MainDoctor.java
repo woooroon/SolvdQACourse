@@ -1,13 +1,13 @@
 package Management;
 public class MainDoctor extends Management{
-    private final String name;
-    private static int age;
-    private final short experience;
+    public static String name;
+    public static int age;
+    public static int experience;
     @Override
     public void itsManagementStuff() {
         super.itsManagementStuff();
     }
-    public MainDoctor(String name, int age, short experience){
+    public MainDoctor(String name, int age, int experience){
         this.name = name;
         this.age = age;
         this.experience = experience;
